@@ -213,14 +213,25 @@ body {
     .error {
         font-size: 4vw;
     }
+
     .details {
         padding: 0 5px;
-        margin-top: 20px;
-        align-items: center;
+        margin-top: 50px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Space between the columns */
+    }
+
+    .col {
+        width: auto; /* Allow columns to fit content */
+        justify-content: center; /* Center content within each column */
+        text-align: center; /* Center text within each column */
     }
 
     .col img {
         width: 30px;
+        margin-right: 4px;
     }
 
     .humidity, .wind {
