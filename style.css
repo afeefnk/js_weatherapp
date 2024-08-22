@@ -226,7 +226,7 @@ body {
     .col {
         width: auto; /* Allow columns to fit content */
         justify-content: center; /* Center content within each column */
-        text-align: center; /* Center text within each column */
+        text-align: left; /* Center text within each column */
     }
 
     .col img {
